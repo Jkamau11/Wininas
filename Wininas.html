@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <style>
+        .main-content{
+            background-color: aqua;
+        }
+        .header{
+            position: fixed;
+            top: 1px;
+            right: 5px;
+            left: 1px;
+            margin-left: 20px;
+            margin-top: 2px;
+            background-color: rgb(202, 202, 208);
+            border-radius: 6px;
+            box-shadow: 1px 1px 1px gold;
+            height: 50px;
+            width: 300px;
+        }
+        .menu{
+         
+            height: 100%;
+        }
+        .search{
+            display: flex;
+            flex-direction: row;
+            width: 100px;
+            height: 100%;
+            column-gap: 2px;
+            align-items: center;
+        }
+
+        .owner{
+         
+            height: 100%;
+        }
+
+        .input{
+            width: 80px;
+            margin-left: 0px;
+            margin-right: 2px;
+        }
+        .btn btn-success{
+            margin-right: 0px;
+            height: 40px;
+        }
+
+        .card{
+            margin-left: 20px;
+            border: none;
+        }
+
+        .free-size{
+            width: 280px;
+            height: 260px;
+            border-radius: 6px;
+        }
+
+        .container{
+            margin: 10px;
+            width: auto;
+            margin-top: 120px;
+        }
+
+        .products{
+            display: flex;
+            flex-direction: row;
+            margin-top: 8px;
+            margin-bottom: 0px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="row">
+            <div class="menu col-xm-3 col-sm-6 col-md-4 col-lg-3 m-2">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Menu
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Ladies</a></li>
+                        <li><a class="dropdown-item" href="#">Men</a></li>
+                        <li><a class="dropdown-item" href="#">Children</a></li>
+                      </ul>
+                    <label for="search">
+
+                        <div class="products">
+                            <h5 style="margin-right: 0px;">Wininas Designs</h5>
+                            </label>
+                            <input class="input" type="text" placeholder="Categories">
+                            <button type="button" class="btn btn-success">Search</button>
+                            <img style="width: 50px;
+                            border-radius: 25px;
+                            margin-left: 2px;"
+                            src="./owner.enc" alt="">
+                        </div>
+                
+            </div>
+    
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./IMG-20231009-WA0031.jpg" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Kaftans.</h5>
+                        <p style="margin: 0.8px;">Free size polyester</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 1,000.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./ponchos.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Ponchos.</h5>
+                        <p style="margin: 0.8px;">Free size</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 1,500.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./Sweaters.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Sweaters..</h5>
+                        <p style="margin: 0.8px;">Cotton</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 2,000.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./cotton lesos_Pure_Cotton_500.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Cotton Lessos.</h5>
+                        <p style="margin: 0.8px;">Pure Cotton</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 500.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./Kaftans2.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Kaftans.</h5>
+                        <p style="margin: 0.8px;">Free size polyester</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 1,000.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./Leggings 3_350.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Leggings.</h5>
+                        <p style="margin: 0.8px;">3 in one</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 1,000.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./Leggings 3_350.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Abayas.</h5>
+                        <p style="margin: 0.8px;">Chiffon</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 2,000.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./Two piece sets_1700.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Two piece sets.</h5>
+                        <p style="margin: 0.8px;">New</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 1,700.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./Leggings 3_350.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Leggings.</h5>
+                        <p style="margin: 0.8px;">3 in one</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 1,000.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./Leggings 3_350.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Leggings.</h5>
+                        <p style="margin: 0.8px;">3 in one</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 1,000.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3 pb-2">
+                <div>
+                    <img class="free-size" src="./Leggings 3_350.txt" alt="">
+                    <div>
+                        <h5 style="margin: 0.8px; ">Leggings.</h5>
+                        <p style="margin: 0.8px;">3 in one</p>
+                        <p style="margin: 0.8px; font-weight: bold;">KES 1,000.00</p>
+                        <button type="button" class="btn btn-success">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+
+        </div>
+
+    </div>
+
+
+
+        
+
+       
+ 
+</body>
+</html>
